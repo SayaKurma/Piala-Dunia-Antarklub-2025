@@ -1,0 +1,24 @@
+[
+    {
+        "matchNumber": 1,
+        "stats": [
+            {"label": "Penguasaan Bola", "home": "44%", "away": "56%"},
+            {"label": "Tendangan", "home": 11, "away": 13},
+            {"label": "Tendangan ke Gawang", "home": 8, "away": 5},
+            {"label": "Tendangan Sudut", "home": 4, "away": 10},
+            {"label": "Pelanggaran", "home": 11, "away": 10},
+            {"label": "Offside", "home": 2, "away": 0}
+        ]
+    }, 
+    {
+        "matchNumber": 2,
+        "stats": [
+            {"label": "Penguasaan Bola", "home": "72%", "away": "28%"},
+            {"label": "Tendangan", "home": 31, "away": 1},
+            {"label": "Tendangan ke Gawang", "home": 17, "away": 1},
+            {"label": "Tendangan Sudut", "home": 10, "away": 2},
+            {"label": "Pelanggaran", "home": 11, "away": 4},
+            {"label": "Offside", "home": 4, "away": 2}
+        ]
+    }
+]
