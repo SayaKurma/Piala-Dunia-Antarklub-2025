@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pertandingan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        darker: '#020617',
+                        primary: '#facc15',
+                        secondary: '#1e293b',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+
+        .match-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+
+        .trophy-icon {
+            text-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-dark min-h-screen">
+    <header class="border-b border-secondary sticky top-0 z-50 bg-dark/90 backdrop-blur-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-trophy text-primary text-2xl trophy-icon"></i>
+                <h1 class="text-xl md:text-2xl font-bold text-white">
+                    <span class="text-primary">FIFA</span> Piala Dunia Antarklub 2025
+                </h1>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="text-gray-300 hover:text-primary transition">Beranda</a>
+                <a href="match.html" class="text-gray-300 hover:text-primary transition">Hasil</a>
+                <a href="jadwal.html" class="text-gray-300 hover:text-primary transition font-bold">Jadwal</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-300 hover:text-primary focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-darker px-4 py-2">
+            <div class="flex flex-col space-y-3">
+                <a href="index.html" class="text-gray-300 hover:text-primary transition">Beranda</a>
+                <a href="match.html" class="text-gray-300 hover:text-primary transition py-1">Hasil</a>
+                <a href="jadwal.html" class="text-gray-300 hover:text-primary transition py-1">Jadwal</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-12 bg-dark">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-8">Jadwal Pertandingan</h2>
+            <div id="schedule"></div>
+        </div>
+    </section>
+
+    <footer class="bg-dark border-t border-secondary py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <i class="fas fa-trophy text-primary text-xl"></i>
+                    <span class="font-bold">Piala Dunia Antarklub FIFA 2025</span>
+                </div>
+                <div class="flex space-x-4">
+                   <a href="https://www.fifa.com/id/tournaments/mens/club-world-cup/usa-2025" class="text-gray-400 hover:text-primary transition">
+                       <i class="fas fa-globe"></i>
+                   </a>
+                   <a href="https://www.instagram.com/fifaclubworldcup" class="text-gray-400 hover:text-primary transition">
+                       <i class="fab fa-instagram"></i>
+                   </a>
+                   <a href="https://m.youtube.com/@fifa" class="text-gray-400 hover:text-primary transition">
+                       <i class="fab fa-youtube"></i>
+                   </a>
+                   <a href="https://x.com/FIFACWC" class="text-gray-400 hover:text-primary transition">
+                       <i class="fab fa-x-twitter"></i>
+                   </a>
+                   <a href="https://www.tiktok.com/@fifaclubworldcup" class="text-gray-400 hover:text-primary transition">
+                       <i class="fab fa-tiktok"></i>
+                   </a>
+                   <a href="https://www.facebook.com/fifaclubworldcup" class="text-gray-400 hover:text-primary transition">
+                       <i class="fab fa-facebook"></i>
+                   </a>
+                   <a href="https://www.threads.net/@fifaclubworldcup" class="text-gray-400 hover:text-primary transition">
+                       <i class="fab fa-threads"></i>
+                   </a>
+                </div>
+            </div>
+            <div class="mt-6 text-center text-sm text-gray-500">
+                © 2025 Fanspage - Hak Cipta Dilindungi
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        fetch('jadwal.json')
+            .then(response => response.json())
+            .then(data => {
+                const scheduleDiv = document.getElementById('schedule');
+                let currentDate = '';
+
+                data.matches.forEach(match => {
+                    if (match.date !== currentDate) {
+                        currentDate = match.date;
+                        const daySection = document.createElement('div');
+                        daySection.className = 'day-section mb-12';
+                        daySection.innerHTML = `<h3 class="text-xl font-bold text-primary mb-6">${match.day}, ${new Date(match.date).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}</h3>`;
+                        scheduleDiv.appendChild(daySection);
+                    }
+
+                    const matchCard = document.createElement('div');
+                    matchCard.className = 'match-card bg-secondary rounded-lg p-6 transition duration-300 mt-6';
+                    matchCard.innerHTML = `
+                        <div class="text-center text-[11px] text-gray-400 mb-3">${match.phase}</div>
+                        <div class="flex items-center justify-between">
+                            <div class="team flex items-center space-x-3">
+                                <span class="text-lg font-semibold text-white">${match.teams[0].code}</span>
+                                <img src="${match.teams[0].logo}" alt="${match.teams[0].code} Logo" class="w-10 h-10 object-contain">
+                            </div>
+                            <div class="match-info text-center flex-1">
+                                <div class="time text-2xl font-bold text-white">${match.time}</div>
+                            </div>
+                            <div class="team flex items-center space-x-3">
+                                <img src="${match.teams[1].logo}" alt="${match.teams[1].code} Logo" class="w-10 h-10 object-contain">
+                                <span class="text-lg font-semibold text-white">${match.teams[1].code}</span>
+                            </div>
+                        </div>
+                        <div class="stadium-details text-center text-[11px] text-gray-400 mt-3">
+                            ${match.group} • ${match.stadium} (${match.location})
+                        </div>
+                    `;
+                    scheduleDiv.lastChild.appendChild(matchCard);
+                });
+            });
+    </script>
+</body>
+</html>
