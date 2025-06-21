@@ -1,8 +1,8 @@
 [
     {
         "matchNumber": 1,
-        "team1": {"name": "Al-Ahly", "code": "AHL", "logo": "https://upload.wikimedia.org/wikipedia/en/7/70/Al_Ahly_SC_logo.svg"},
-        "team2": {"name": "Inter Miami", "code": "MIA", "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/Inter_Miami_CF_logo.svg"},
+        "team1": {"name": "Al-Ahly", "code": "AHL", "logo": "logo/Al-Ahly.png"},
+        "team2": {"name": "Inter Miami", "code": "MIA", "logo": "logo/Inter-Miami.png"},
         "score": "0-0",
         "events": [
             {"type": "kickoff"},
@@ -36,8 +36,8 @@
     },
     {
         "matchNumber": 2,
-        "team1": {"name": "Bayern München", "code": "BAY", "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"},
-        "team2": {"name": "Auckland City", "code": "AKL", "logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/Auckland_City_FC_logo.svg"},
+        "team1": {"name": "Bayern München", "code": "BAY", "logo": "logo/Bayern.png"},
+        "team2": {"name": "Auckland City", "code": "AKL", "logo": "logo/Auckland.png"},
         "score": "10-0",
         "events": [
             {"type": "kickoff"},
