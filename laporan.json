@@ -27,5 +27,21 @@
       "away": []
     },
     "stadium": "Stadion TQL, Cincinnati", "attendance": "21.152 penonton"
+  }, 
+  {
+  "matchNumber": 3, "date": "2025-06-16", "time": "03:00", "group": "Grup B", "matchday": 3,
+  "team1": {"name": "Paris Saint-Germain", "code": "PSG", "logo": "logo/PSG.png"},
+  "team2": {"name": "Atlético Madrid", "code": "ATM", "logo": "logo/ATM.png"},
+  "score": "4-0",
+  "scorers": {
+    "home": [
+      {"player": "Fabian Ruiz", "minute": "19'"},
+      {"player": "Vitinha", "minute": "45+1'"},
+      {"player": "Senny Mayulu", "minute": "87'"},
+      {"player": "Lee Kang-In", "minute": "90+7'", "isPenalty": true}
+    ],
+    "away": []
+  },
+  "stadium": "Stadion Rose Bowl, Los Angeles", "attendance": "80.619 penonton"
   }
 ]
