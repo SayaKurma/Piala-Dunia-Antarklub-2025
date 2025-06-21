@@ -1,0 +1,68 @@
+{
+  "matches": [
+    {
+      "date": "2025-06-15", "day": "Minggu", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "AHL", "name": "Al Ahly", "logo": "logo/Al-Ahly.png"},
+        {"code": "MIA", "name": "Inter Miami", "logo": "logo/Inter-Miami.png"}
+      ],
+      "time": "08:00", "group": "Grup A", "stadium": "Stadion Hard Rock", "location": "Miami"
+    },
+    {
+      "date": "2025-06-16", "day": "Senin", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "BAY", "name": "Bayern Munich", "logo": "logo/Bayern.png"},
+        {"code": "AKL", "name": "Auckland City", "logo": "logo/Auckland.png"}
+      ],
+      "time": "00:00", "group": "Grup C", "stadium": "Stadion TQL", "location": "Cincinnati"
+    },
+    {
+      "date": "2025-06-16", "day": "Senin", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "PSG", "name": "Paris Saint-Germain", "logo": "logo/PSG.png"},
+        {"code": "ATM", "name": "Atlético Madrid", "logo": "logo/ATM.png"}
+      ],
+      "time": "03:00", "group": "Grup B", "stadium": "Stadion Rose Bowl", "location": "Los Angeles"
+    },
+    {
+      "date": "2025-06-16", "day": "Senin", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "SEP", "name": "Palmeiras", "logo": "logo/Palmeiras.png"},
+        {"code": "POR", "name": "FC Porto", "logo": "logo/Porto.png"}
+      ],
+      "time": "06:00", "group": "Grup A", "stadium": "Stadion MetLife", "location": "New York"
+    },
+    {
+      "date": "2025-06-16", "day": "Senin", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "BOT", "name": "Botafogo", "logo": "logo/Botafogo.png"},
+        {"code": "SEA", "name": "Seattle Sounders", "logo": "logo/Seattle-Sounders.png"}
+      ],
+      "time": "10:00", "group": "Grup B", "stadium": "Lapangan Lumen", "location": "Seattle"
+    }, 
+    {
+      "date": "2025-06-17", "day": "Selasa", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "CHE", "name": "Chelsea", "logo": "logo/Chelsea.png"},
+        {"code": "LAF", "name": "Los Angeles FC", "logo": "logo/LAFC.png"}
+      ],
+      "time": "03:00", "group": "Grup D", "stadium": "Stadion Mercedes-Benz", "location": "Atlanta"
+    },
+    {
+      "date": "2025-06-17", "day": "Selasa", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "BOC", "name": "Boca Juniors", "logo": "logo/Boca-Juniors.png"},
+        {"code": "SLB", "name": "Benfica", "logo": "logo/Benfica.png"}
+      ],
+      "time": "06:00", "group": "Grup C", "stadium": "Stadion Hard Rock", "location": "Miami"
+    },
+    {
+      "date": "2025-06-17", "day": "Selasa", "phase": "Penyisihan Grup",
+      "teams": [
+        {"code": "FLA", "name": "Flamengo", "logo": "logo/Flamengo.png"},
+        {"code": "EST", "name": "Espérance", "logo": "logo/Espérance.png"}
+      ],
+      "time": "09:00", "group": "Grup D", "stadium": "Lapangan Lincoln Financial", "location": "Philadelphia"
+    }
+  ]
+}
