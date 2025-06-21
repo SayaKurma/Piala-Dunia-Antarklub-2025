@@ -32,7 +32,7 @@
       "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 3,
       "team1": {"name": "Paris Saint-Germain", "score": 4, "logo": "logo/PSG.png"},
       "team2": {"name": "Atlético Madrid", "score": 0, "logo": "logo/ATM.png"},
-      "score": "4-0", "location": "Stadion Rose Bowl (Los Angeles)", "highlightVideo": "PSG-ATM.mp4", 
+      "score": "4-0", "location": "Stadion Rose Bowl (Los Angeles)", "highlightVideo": "gol/PSG-ATM.mp4", 
       "goals": [
         {"team": "Paris Saint-Germain", "player": "Fabian Ruiz", "minute": ["19'"]},
         {"team": "Paris Saint-Germain", "player": "Vitinha", "minute": "45+1'"},
