@@ -120,5 +120,45 @@
             {"type": "goal", "team": "Paris Saint-Germain", "player": "Lee Kang-In", "minute": "90+7'"},
             {"type": "fulltime"}
         ]
+    }, 
+    {
+        "matchNumber": 4,
+        "team1": {"name": "Palmeiras", "code": "SEP", "logo": "logo/Palmeiras.png"},
+        "team2": {"name": "FC Porto", "code": "POR", "logo": "logo/Porto.png"},
+        "score": "0-0",
+        "events": [
+            {"type": "kickoff"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Vitor Roque", "minute": "5", "reason": "telat mengambil keputusan"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Estêvão Willian", "minute": "5", "reason": "sontekan melebar"},
+            {"type": "yellow", "team": "Palmeiras", "player": "Felipe Anderson", "minute": "9"},
+            {"type": "missed-goal", "team": "FC Porto", "player": "Rodrigo Mora", "minute": "14", "reason": "tembakan melenceng tipis"},
+            {"type": "yellow", "team": "FC Porto", "player": "Martim Fernandes", "minute": "15"},
+            {"type": "missed-goal", "team": "FC Porto", "player": "Martim Fernandes", "minute": "18", "reason": "sundulan dihalau"},
+            {"type": "missed-goal", "team": "FC Porto", "player": "Samu Aghehowa", "minute": "32", "reason": "sontekan dari sudut sempit diblok"},
+            {"type": "extra-time", "time": "3"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Estêvão Willian", "minute": "45+2", "reason": "sontekan dihalau"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Maurício", "minute": "45+2", "reason": "sontekan diblok"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Richard Ríos", "minute": "45+2", "reason": "sontekan diblok"},
+            {"type": "halftime"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Aníbal Moreno", "minute": "47", "reason": "tembakan jarak jauh terlalu pelan"},
+            {"type": "missed-goal", "team": "FC Porto", "player": "Fábio Vieira", "minute": "48", "reason": "tembakan tertepis"},
+            {"type": "yellow", "team": "Palmeiras", "player": "Gustavo Gómez", "minute": "62"},
+            {"type": "yellow", "team": "Palmeiras", "player": "Abel Ferreira", "minute": "63"},
+            {"type": "substitution", "team": "Palmeiras", "out": "Felipe Anderson", "in": "Paulinho", "minute": "64"},
+            {"type": "substitution", "team": "Palmeiras", "out": "Estêvão Willian", "in": "Allan", "minute": "65"},
+            {"type": "substitution", "team": "Palmeiras", "out": "Maurício", "in": "Raphael Veiga", "minute": "65"},
+            {"type": "substitution", "team": "FC Porto", "out": "Gabri Veiga", "in": "Pepê", "minute": "67"},
+            {"type": "substitution", "team": "Palmeiras", "out": "Vitor Roque", "in": "José Manuel López", "minute": "77"},
+            {"type": "substitution", "team": "FC Porto", "out": "Rodrigo Mora", "in": "Stephen Eustáquio", "minute": "77"},
+            {"type": "substitution", "team": "FC Porto", "out": "João Mário", "in": "Nehuén Pérez", "minute": "77"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Paulinho", "minute": "78", "reason": "sontekan terlalu pelan"},
+            {"type": "substitution", "team": "FC Porto", "out": "Alan Varela", "in": "Tomás Pérez", "minute": "81"},
+            {"type": "substitution", "team": "FC Porto", "out": "Fábio Vieira", "in": "André Franco", "minute": "82"},
+            {"type": "missed-goal", "team": "Palmeiras", "player": "Murilo", "minute": "84", "reason": "sundulan mengenai mistar gawang"},
+            {"type": "substitution", "team": "Palmeiras", "out": "Richard Ríos", "in": "Lucas Evangelista", "minute": "87"},
+            {"type": "extra-time", "time": "4"},
+            {"type": "yellow", "team": "FC Porto", "player": "Nehuén Pérez", "minute": "90+1"},
+            {"type": "fulltime"}
+        ]
     }
 ]
