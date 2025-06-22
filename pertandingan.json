@@ -34,12 +34,15 @@
       "team2": {"name": "Atlético Madrid", "score": 0, "logo": "logo/ATM.png"},
       "score": "4-0", "location": "Stadion Rose Bowl (Los Angeles)", "highlightVideo": "gol/PSG-ATM.mp4", 
       "goals": [
-        {"team": "Paris Saint-Germain", "player": "Fabian Ruiz", "minute": ["19'"]},
+        {"team": "Paris Saint-Germain", "player": "Fabian Ruiz", "minute": "19'"},
         {"team": "Paris Saint-Germain", "player": "Vitinha", "minute": "45+1'"},
-        {"team": "Paris Saint-Germain", "player": "Senny Mayulu", "minute": ["87'"]},
-        {"team": "Paris Saint-Germain", "player": "Lee Kang-In", "minute": ["90+7'"]}
+        {"team": "Paris Saint-Germain", "player": "Senny Mayulu", "minute": "87'"},
+        {"team": "Paris Saint-Germain", "player": "Lee Kang-In", "minute": "90+7'"}
       ],
-      "assists": []
+      "assists": [
+        {"team": "Paris Saint-Germain", "player": "Khvicha Kvaratskhelia", "minutes": ["19'", "45+1'"]},
+        {"team": "Paris Saint-Germain", "player": "Ibrahim Mbaye", "minute": "87'"}
+      ]
     },
     {
       "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 4,
@@ -54,9 +57,9 @@
       "team2": {"name": "Seattle Sounders", "score": 1, "logo": "logo/Seattle-Sounders.png"},
       "score": "2-1", "location": "Lapangan Lumen (Seattle)",
       "goals": [
-        {"team": "Botafogo", "player": "Jair Cunha", "minute": ["28'"]},
+        {"team": "Botafogo", "player": "Jair Cunha", "minute": "28'"},
         {"team": "Botafogo", "player": "Igor Jesus", "minute": "44'"},
-        {"team": "Seattle Sounders", "player": "Alex Roldan", "minute": ["75'"]}
+        {"team": "Seattle Sounders", "player": "Alex Roldan", "minute": "75'"}
       ],
       "assists": []
     }
