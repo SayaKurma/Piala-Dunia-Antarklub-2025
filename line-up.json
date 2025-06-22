@@ -221,5 +221,83 @@
             ]
         },
         "referee": {"name": "Istvan Kovacs", "nationality": "Rumania"}
+    }, 
+    {
+        "matchNumber": 4,
+        "team1": {
+            "name": "Palmeiras",
+            "code": "SEP",
+            "logo": "logo/Palmeiras.png",
+            "coach": "Abel Ferreira",
+            "style": {"background": "linear-gradient(145deg, #006437, #004d2c)", "color": "#ffffff", "borderColor": "#ffffff"},
+            "players": [
+                {"number": "21", "name": "Weverton", "position": {"top": 10, "left": 50}, "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #ff7f50, #ff6347)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "7", "name": "Felipe Anderson", "position": {"top": 170, "left": 18}, "isGoalkeeper": false},
+                {"number": "4", "name": "Giay", "position": {"top": 80, "left": 30}, "isGoalkeeper": false},
+                {"number": "15", "name": "Gómez", "position": {"top": 80, "left": 50}, "isGoalkeeper": false},
+                {"number": "26", "name": "Murilo", "position": {"top": 80, "left": 70}, "isGoalkeeper": false},
+                {"number": "22", "name": "Piquerez", "position": {"top": 170, "left": 82}, "isGoalkeeper": false},
+                {"number": "8", "name": "Ríos", "position": {"top": 150, "left": 40}, "isGoalkeeper": false},
+                {"number": "18", "name": "Maurício", "position": {"top": 240, "left": 70}, "isGoalkeeper": false},
+                {"number": "5", "name": "Moreno", "position": {"top": 150, "left": 60}, "isGoalkeeper": false},
+                {"number": "41", "name": "Estêvão", "position": {"top": 240, "left": 30}, "isGoalkeeper": false},
+                {"number": "9", "name": "Vitor Roque", "position": {"top": 250, "left": 50}, "isGoalkeeper": false}
+            ],
+            "substitutes": [
+                {"number": "14", "name": "Marcelo Lomba", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #ff7f50, #ff6347)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "2", "name": "Marcos Rocha", "isGoalkeeper": false},
+                {"number": "3", "name": "Bruno Fuchs", "isGoalkeeper": false},
+                {"number": "6", "name": "Vanderlan", "isGoalkeeper": false},
+                {"number": "10", "name": "Paulinho", "isGoalkeeper": false},
+                {"number": "12", "name": "Mayke", "isGoalkeeper": false},
+                {"number": "13", "name": "Micael", "isGoalkeeper": false},
+                {"number": "17", "name": "Facundo Torres", "isGoalkeeper": false},
+                {"number": "23", "name": "Raphael Veiga", "isGoalkeeper": false},
+                {"number": "30", "name": "Lucas Evangelista", "isGoalkeeper": false},
+                {"number": "31", "name": "Luighi Hanri", "isGoalkeeper": false},
+                {"number": "32", "name": "Emiliano Martínez", "isGoalkeeper": false},
+                {"number": "39", "name": "Thalys", "isGoalkeeper": false},
+                {"number": "40", "name": "Allan", "isGoalkeeper": false},
+                {"number": "42", "name": "José Manuel López", "isGoalkeeper": false}
+            ]
+        },
+        "team2": {
+            "name": "FC Porto",
+            "code": "POR",
+            "logo": "logo/Porto.png",
+            "coach": "Martin Anselmi",
+            "style": {"background": "linear-gradient(145deg, #5e2d8c, #4b236b)", "color": "#ffffff", "borderColor": "#ffffff"},
+            "players": [
+                {"number": "14", "name": "Claudio Ramos", "position": {"bottom": -12, "left": 50}, "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #facc15, #e6b800)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "5", "name": "Marcano", "position": {"bottom": 60, "left": 30}, "isGoalkeeper": false},
+                {"number": "97", "name": "Pedro", "position": {"bottom": 60, "left": 50}, "isGoalkeeper": false},
+                {"number": "52", "name": "Fernandes", "position": {"bottom": 60, "left": 70}, "isGoalkeeper": false},
+                {"number": "23", "name": "João Mário", "position": {"bottom": 150, "left": 82}, "isGoalkeeper": false},
+                {"number": "17", "name": "Veiga", "position": {"bottom": 130, "left": 40}, "isGoalkeeper": false},
+                {"number": "74", "name": "Moura", "position": {"bottom": 150, "left": 18}, "isGoalkeeper": false},
+                {"number": "22", "name": "Varela", "position": {"bottom": 130, "left": 60}, "isGoalkeeper": false},
+                {"number": "86", "name": "Mora", "position": {"bottom": 210, "left": 30}, "isGoalkeeper": false},
+                {"number": "9", "name": "Samu", "position": {"bottom": 220, "left": 50}, "isGoalkeeper": false},
+                {"number": "10", "name": "Vieira", "position": {"bottom": 210, "left": 70}, "isGoalkeeper": false}
+            ],
+            "substitutes": [
+                {"number": "51", "name": "Diogo Fernandes", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #facc15, #e6b800)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "4", "name": "Otávio", "isGoalkeeper": false},
+                {"number": "6", "name": "Stephen Eustáquio", "isGoalkeeper": false},
+                {"number": "7", "name": "William Gomes", "isGoalkeeper": false},
+                {"number": "11", "name": "Pepê", "isGoalkeeper": false},
+                {"number": "12", "name": "Zaidu Sanusi", "isGoalkeeper": false},
+                {"number": "15", "name": "Vasco Sousa", "isGoalkeeper": false},
+                {"number": "19", "name": "Danny Namaso", "isGoalkeeper": false},
+                {"number": "20", "name": "André Franco", "isGoalkeeper": false},
+                {"number": "24", "name": "Nehuén Pérez", "isGoalkeeper": false},
+                {"number": "25", "name": "Tomás Pérez", "isGoalkeeper": false},
+                {"number": "27", "name": "Deniz Gül", "isGoalkeeper": false},
+                {"number": "47", "name": "Ángel Alarcón", "isGoalkeeper": false},
+                {"number": "68", "name": "André Oliveira", "isGoalkeeper": false},
+                {"number": "70", "name": "Gonçalo Borges", "isGoalkeeper": false}
+            ]
+        },
+        "referee": {"name": "Said Martinez", "nationality": "Honduras"}
     }
 ]
