@@ -43,5 +43,16 @@
     "away": []
   },
   "stadium": "Stadion Rose Bowl, Los Angeles", "attendance": "80.619 penonton"
+  }, 
+  {
+  "matchNumber": 4, "date": "2025-06-16", "time": "06:00", "group": "Grup A", "matchday": 4,
+  "team1": {"name": "Palmeiras", "code": "SEP", "logo": "logo/Palmeiras.png"},
+  "team2": {"name": "FC Porto", "code": "POR", "logo": "logo/Porto.png"},
+  "score": "0-0",
+  "scorers": {
+    "home": [],
+    "away": []
+  },
+  "stadium": "Stadion MetLife, New York", "attendance": "46.275 Penonton"
   }
 ]
