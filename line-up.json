@@ -299,5 +299,83 @@
             ]
         },
         "referee": {"name": "Said Martinez", "nationality": "Honduras"}
+    }, 
+    {
+        "matchNumber": 5,
+        "team1": {
+            "name": "Botafogo",
+            "code": "BOT",
+            "logo": "logo/Botafogo.png",
+            "coach": "Renato Paiva",
+            "style": {"background": "linear-gradient(145deg, #000000, #333333)", "color": "#ffffff", "borderColor": "#ffffff"},
+            "players": [
+                {"number": "12", "name": "John Victor", "position": {"top": 10, "left": 50}, "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #1e90ff, #00b7eb)", "color": "#ffffff", "borderColor": "#ffffff"}},
+                {"number": "2", "name": "Vitinho", "position": {"top": 100, "left": 18}, "isGoalkeeper": false},
+                {"number": "32", "name": "Jair", "position": {"top": 80, "left": 40}, "isGoalkeeper": false},
+                {"number": "39", "name": "Mastriani", "position": {"top": 230, "left": 70}, "isGoalkeeper": false},
+                {"number": "20", "name": "Barboza", "position": {"top": 80, "left": 60}, "isGoalkeeper": false},
+                {"number": "13", "name": "Telles", "position": {"top": 100, "left": 82}, "isGoalkeeper": false},
+                {"number": "26", "name": "Gregore", "position": {"top": 160, "left": 30}, "isGoalkeeper": false},
+                {"number": "17", "name": "Freitas", "position": {"top": 147, "left": 50}, "isGoalkeeper": false},
+                {"number": "7", "name": "Artur", "position": {"top": 160, "left": 70}, "isGoalkeeper": false},
+                {"number": "99", "name": "Igor", "position": {"top": 230, "left": 30}, "isGoalkeeper": false},
+                {"number": "10", "name": "Savarino", "position": {"top": 250, "left": 50}, "isGoalkeeper": false}
+            ],
+            "substitutes": [
+                {"number": "1", "name": "Raul", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #1e90ff, #00b7eb)", "color": "#ffffff", "borderColor": "#ffffff"}},
+                {"number": "24", "name": "Léo Linck", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #1e90ff, #00b7eb)", "color": "#ffffff", "borderColor": "#ffffff"}},
+                {"number": "4", "name": "Mateo Ponte", "isGoalkeeper": false},
+                {"number": "5", "name": "Danilo Barbosa", "isGoalkeeper": false},
+                {"number": "8", "name": "Álvaro Montoro", "isGoalkeeper": false},
+                {"number": "9", "name": "Rwan Cruz", "isGoalkeeper": false},
+                {"number": "21", "name": "Marçal", "isGoalkeeper": false},
+                {"number": "23", "name": "Santiago Rodríguez", "isGoalkeeper": false},
+                {"number": "25", "name": "Allan", "isGoalkeeper": false},
+                {"number": "28", "name": "Newton", "isGoalkeeper": false},
+                {"number": "30", "name": "Joaquín Correa", "isGoalkeeper": false},
+                {"number": "31", "name": "Kaio", "isGoalkeeper": false},
+                {"number": "57", "name": "David Ricardo", "isGoalkeeper": false},
+                {"number": "66", "name": "Cuiabano", "isGoalkeeper": false},
+                {"number": "98", "name": "Arthur Cabral", "isGoalkeeper": false}
+            ]
+        },
+        "team2": {
+            "name": "Seattle Sounders",
+            "code": "SEA",
+            "logo": "logo/Seattle-Sounders.png",
+            "coach": "Brian Schmetzer",
+            "style": {"background": "linear-gradient(145deg, #90EE90, #32CD32)", "color": "#000000", "borderColor": "#000000"},
+            "players": [
+                {"number": "24", "name": "Frei", "position": {"bottom": -12, "left": 50}, "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #000080, #4682B4)", "color": "#ffffff", "borderColor": "#ffffff"}},
+                {"number": "5", "name": "Nouhou", "position": {"bottom": 80, "left": 18}, "isGoalkeeper": false},
+                {"number": "25", "name": "Ragen", "position": {"bottom": 60, "left": 40}, "isGoalkeeper": false},
+                {"number": "20", "name": "Kim", "position": {"bottom": 60, "left": 60}, "isGoalkeeper": false},
+                {"number": "16", "name": "Á. Roldán", "position": {"bottom": 80, "left": 82}, "isGoalkeeper": false},
+                {"number": "18", "name": "Vargas", "position": {"bottom": 127, "left": 30}, "isGoalkeeper": false},
+                {"number": "11", "name": "Rusnák", "position": {"bottom": 160, "left": 50}, "isGoalkeeper": false},
+                {"number": "7", "name": "Roldán", "position": {"bottom": 127, "left": 70}, "isGoalkeeper": false},
+                {"number": "77", "name": "Kent", "position": {"bottom": 200, "left": 30}, "isGoalkeeper": false},
+                {"number": "19", "name": "Musovski", "position": {"bottom": 220, "left": 50}, "isGoalkeeper": false},
+                {"number": "9", "name": "Ferreira", "position": {"bottom": 200, "left": 70}, "isGoalkeeper": false}
+            ],
+            "substitutes": [
+                {"number": "26", "name": "Andrew Thomas", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #000080, #4682B4)", "color": "#ffffff", "borderColor": "#ffffff"}},
+                {"number": "29", "name": "Jacob Castro", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #000080, #4682B4)", "color": "#ffffff", "borderColor": "#ffffff"}},
+                {"number": "3", "name": "Travian Sousa", "isGoalkeeper": false},
+                {"number": "6", "name": "João Paulo", "isGoalkeeper": false},
+                {"number": "10", "name": "Pedro de la Vega", "isGoalkeeper": false},
+                {"number": "13", "name": "Jordan Morris", "isGoalkeeper": false},
+                {"number": "14", "name": "Paul Rothrock", "isGoalkeeper": false},
+                {"number": "15", "name": "Jon Bell", "isGoalkeeper": false},
+                {"number": "21", "name": "Reed Baker-Whiting", "isGoalkeeper": false},
+                {"number": "28", "name": "Yeimar Gómez Andrade", "isGoalkeeper": false},
+                {"number": "33", "name": "Cody Baker", "isGoalkeeper": false},
+                {"number": "75", "name": "Danny Leyva", "isGoalkeeper": false},
+                {"number": "85", "name": "Kalani Kossa-Rienzi", "isGoalkeeper": false},
+                {"number": "93", "name": "Georgi Minoungou", "isGoalkeeper": false},
+                {"number": "95", "name": "Osaze de Rosario", "isGoalkeeper": false}
+            ]
+        },
+        "referee": {"name": "Glenn Nyberg", "nationality": "Swedia"}
     }
 ]
