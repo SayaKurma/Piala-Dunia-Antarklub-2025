@@ -42,5 +42,16 @@
             {"label": "Pelanggaran", "home": 20, "away": 12},
             {"label": "Offside", "home": 2, "away": 1}
         ]
+    }, 
+    {
+        "matchNumber": 5,
+        "stats": [
+            {"label": "Penguasaan Bola", "home": "40%", "away": "60%"},
+            {"label": "Tendangan", "home": 11, "away": 25},
+            {"label": "Tendangan ke Gawang", "home": 6, "away": 5},
+            {"label": "Tendangan Sudut", "home": 0, "away": 4},
+            {"label": "Pelanggaran", "home": 18, "away": 6},
+            {"label": "Offside", "home": 0, "away": 0}
+        ]
     }
 ]
