@@ -55,13 +55,17 @@
       "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 5,
       "team1": {"name": "Botafogo", "score": 2, "logo": "logo/Botafogo.png"},
       "team2": {"name": "Seattle Sounders", "score": 1, "logo": "logo/Seattle-Sounders.png"},
-      "score": "2-1", "location": "Lapangan Lumen (Seattle)",
+      "score": "2-1", "location": "Lapangan Lumen (Seattle)", "highlightVideo": "gol/BOT-SEA.mp4", 
       "goals": [
         {"team": "Botafogo", "player": "Jair Cunha", "minute": "28'"},
         {"team": "Botafogo", "player": "Igor Jesus", "minute": "44'"},
         {"team": "Seattle Sounders", "player": "Alex Roldan", "minute": "75'"}
       ],
-      "assists": []
+      "assists": [
+        {"team": "Botafogo", "player": "Alex Telles", "minute": "28'"}, 
+        {"team": "Botafogo", "player": "Vitinho", "minute": "44'"}, 
+        {"team": "Seattle Sounders", "player": "Paul Rothrock", "minute": "75'"}
+      ]
     }
   ],
   "clubs": [
