@@ -66,6 +66,20 @@
         {"team": "Botafogo", "player": "Vitinho", "minute": "44'"}, 
         {"team": "Seattle Sounders", "player": "Paul Rothrock", "minute": "75'"}
       ]
+    }, 
+    {
+      "date": "2025-06-17", "round": "Penyisihan Grup", "matchNumber": 6,
+      "team1": {"name": "Chelsea", "score": 2, "logo": "logo/Chelsea.png"},
+      "team2": {"name": "Los Angeles FC", "score": 0, "logo": "logo/LAFC.png"},
+      "score": "2-0", "location": "Stadion Mercedes-Benz (Atlanta)", "highlightVideo": "gol/CHE-LAF.mp4"
+      "goals": [
+        {"team": "Chelsea", "player": "Pedro Neto", "minute": "34'"},
+        {"team": "Chelsea", "player": "Enzo Fernandez", "minute": "79'"}
+      ],
+      "assists": [
+        {"team": "Chelsea", "player": "Nicolas Jackson", "minute": "34'"},
+        {"team": "Chelsea", "player": "Liam Delap", "minute": "79'"}
+      ]
     }
   ],
   "clubs": [
@@ -78,6 +92,8 @@
     {"name": "Palmeiras", "logo": "logo/Palmeiras.png"},
     {"name": "FC Porto", "logo": "logo/Porto.png"},
     {"name": "Botafogo", "logo": "logo/Botafogo.png"},
-    {"name": "Seattle Sounders", "logo": "logo/Seattle-Sounders.png"}
+    {"name": "Seattle Sounders", "logo": "logo/Seattle-Sounders.png"}, 
+    {"name": "Chelsea", "logo": "logo/Chelsea.png"},
+    {"name": "Los Angeles FC", "logo": "logo/LAFC.png"}
   ]
 }
