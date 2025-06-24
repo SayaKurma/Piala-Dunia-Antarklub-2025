@@ -71,7 +71,7 @@
       "date": "2025-06-17", "round": "Penyisihan Grup", "matchNumber": 6,
       "team1": {"name": "Chelsea", "score": 2, "logo": "logo/Chelsea.png"},
       "team2": {"name": "Los Angeles FC", "score": 0, "logo": "logo/LAFC.png"},
-      "score": "2-0", "location": "Stadion Mercedes-Benz (Atlanta)", "highlightVideo": "gol/CHE-LAF.mp4"
+      "score": "2-0", "location": "Stadion Mercedes-Benz (Atlanta)", "highlightVideo": "gol/CHE-LAF.mp4", 
       "goals": [
         {"team": "Chelsea", "player": "Pedro Neto", "minute": "34'"},
         {"team": "Chelsea", "player": "Enzo Fernandez", "minute": "79'"}
