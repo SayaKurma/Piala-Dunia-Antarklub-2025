@@ -1,99 +1,116 @@
 {
-  "matches": [
-    {
-      "date": "2025-06-15", "round": "Penyisihan Grup", "matchNumber": 1,
-      "team1": {"name": "Al-Ahly", "score": 0, "logo": "logo/Al-Ahly.png"},
-      "team2": {"name": "Inter Miami", "score": 0, "logo": "logo/Inter-Miami.png"},
-      "score": "0-0", "location": "Stadion Hard Rock (Miami)",
-      "assists": []
-    },
-    {
-      "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 2,
-      "team1": {"name": "Bayern München", "score": 10, "logo": "logo/Bayern.png"},
-      "team2": {"name": "Auckland City", "score": 0, "logo": "logo/Auckland.png"},
-      "score": "10-0", "location": "Stadion TQL (Cincinnati)", "highlightVideo": "gol/BAY-AKL.mp4", 
-      "goals": [
-        {"team": "Bayern München", "player": "Kingsley Coman", "minutes": ["6'", "21'"]},
-        {"team": "Bayern München", "player": "Sacha Boey", "minute": "18'"},
-        {"team": "Bayern München", "player": "Michael Olise", "minutes": ["20'", "45+3'"]},
-        {"team": "Bayern München", "player": "Thomas Müller", "minutes": ["45'", "89'"]},
-        {"team": "Bayern München", "player": "Jamal Musiala", "minutes": ["67'", "73'", "84'"]}
-      ],
-      "assists": [
-        {"team": "Bayern München", "player": "Jonathan Tah", "minute": "5'"},
-        {"team": "Bayern München", "player": "Kingsley Coman", "minute": "17'"},
-        {"team": "Bayern München", "player": "Michael Olise", "minutes": ["20'", "44'"]},
-        {"team": "Bayern München", "player": "Sacha Boey", "minute": "45+2'"},
-        {"team": "Bayern München", "player": "Thomas Müller", "minute": "66'"},
-        {"team": "Bayern München", "player": "Serge Gnabry", "minute": "88'"}
-      ]
-    },
-    {
-      "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 3,
-      "team1": {"name": "Paris Saint-Germain", "score": 4, "logo": "logo/PSG.png"},
-      "team2": {"name": "Atlético Madrid", "score": 0, "logo": "logo/ATM.png"},
-      "score": "4-0", "location": "Stadion Rose Bowl (Los Angeles)", "highlightVideo": "gol/PSG-ATM.mp4", 
-      "goals": [
-        {"team": "Paris Saint-Germain", "player": "Fabian Ruiz", "minute": "19'"},
-        {"team": "Paris Saint-Germain", "player": "Vitinha", "minute": "45+1'"},
-        {"team": "Paris Saint-Germain", "player": "Senny Mayulu", "minute": "87'"},
-        {"team": "Paris Saint-Germain", "player": "Lee Kang-In", "minute": "90+7'"}
-      ],
-      "assists": [
-        {"team": "Paris Saint-Germain", "player": "Khvicha Kvaratskhelia", "minutes": ["19'", "45+1'"]},
-        {"team": "Paris Saint-Germain", "player": "Ibrahim Mbaye", "minute": "87'"}
-      ]
-    },
-    {
-      "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 4,
-      "team1": {"name": "Palmeiras", "score": 0, "logo": "logo/Palmeiras.png"},
-      "team2": {"name": "FC Porto", "score": 0, "logo": "logo/Porto.png"},
-      "score": "0-0", "location": "Stadion MetLife (New York)",
-      "assists": []
-    },
-    {
-      "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 5,
-      "team1": {"name": "Botafogo", "score": 2, "logo": "logo/Botafogo.png"},
-      "team2": {"name": "Seattle Sounders", "score": 1, "logo": "logo/Seattle-Sounders.png"},
-      "score": "2-1", "location": "Lapangan Lumen (Seattle)", "highlightVideo": "gol/BOT-SEA.mp4", 
-      "goals": [
-        {"team": "Botafogo", "player": "Jair Cunha", "minute": "28'"},
-        {"team": "Botafogo", "player": "Igor Jesus", "minute": "44'"},
-        {"team": "Seattle Sounders", "player": "Alex Roldan", "minute": "75'"}
-      ],
-      "assists": [
-        {"team": "Botafogo", "player": "Alex Telles", "minute": "28'"}, 
-        {"team": "Botafogo", "player": "Vitinho", "minute": "44'"}, 
-        {"team": "Seattle Sounders", "player": "Paul Rothrock", "minute": "75'"}
-      ]
-    }, 
-    {
-      "date": "2025-06-17", "round": "Penyisihan Grup", "matchNumber": 6,
-      "team1": {"name": "Chelsea", "score": 2, "logo": "logo/Chelsea.png"},
-      "team2": {"name": "Los Angeles FC", "score": 0, "logo": "logo/LAFC.png"},
-      "score": "2-0", "location": "Stadion Mercedes-Benz (Atlanta)", "highlightVideo": "gol/CHE-LAF.mp4", 
-      "goals": [
-        {"team": "Chelsea", "player": "Pedro Neto", "minute": "34'"},
-        {"team": "Chelsea", "player": "Enzo Fernandez", "minute": "79'"}
-      ],
-      "assists": [
-        {"team": "Chelsea", "player": "Nicolas Jackson", "minute": "34'"},
-        {"team": "Chelsea", "player": "Liam Delap", "minute": "79'"}
-      ]
-    }
-  ],
-  "clubs": [
-    {"name": "Al-Ahly", "logo": "logo/Al-Ahly.png"},
-    {"name": "Inter Miami", "logo": "logo/Inter-Miami.png"},
-    {"name": "Bayern München", "logo": "logo/Bayern.png"},
-    {"name": "Auckland City", "logo": "logo/Auckland.png"},
-    {"name": "Paris Saint-Germain", "logo": "logo/PSG.png"},
-    {"name": "Atlético Madrid", "logo": "logo/ATM.png"},
-    {"name": "Palmeiras", "logo": "logo/Palmeiras.png"},
-    {"name": "FC Porto", "logo": "logo/Porto.png"},
-    {"name": "Botafogo", "logo": "logo/Botafogo.png"},
-    {"name": "Seattle Sounders", "logo": "logo/Seattle-Sounders.png"}, 
-    {"name": "Chelsea", "logo": "logo/Chelsea.png"},
-    {"name": "Los Angeles FC", "logo": "logo/LAFC.png"}
-  ]
-}
+    "matches": [
+      {
+        "date": "2025-06-15", "round": "Penyisihan Grup", "matchNumber": 1,
+        "team1": {"name": "Al-Ahly", "score": 0, "logo": "logo/Al-Ahly.png"},
+        "team2": {"name": "Inter Miami", "score": 0, "logo": "logo/Inter-Miami.png"},
+        "score": "0-0", "location": "Stadion Hard Rock (Miami)",
+        "assists": []
+      },
+      {
+        "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 2,
+        "team1": {"name": "Bayern München", "score": 10, "logo": "logo/Bayern.png"},
+        "team2": {"name": "Auckland City", "score": 0, "logo": "logo/Auckland.png"},
+        "score": "10-0", "location": "Stadion TQL (Cincinnati)", "highlightVideo": "gol/BAY-AKL.mp4", 
+        "goals": [
+          {"team": "Bayern München", "player": "Kingsley Coman", "minutes": ["6'", "21'"]},
+          {"team": "Bayern München", "player": "Sacha Boey", "minute": "18'"},
+          {"team": "Bayern München", "player": "Michael Olise", "minutes": ["20'", "45+3'"]},
+          {"team": "Bayern München", "player": "Thomas Müller", "minutes": ["45'", "89'"]},
+          {"team": "Bayern München", "player": "Jamal Musiala", "minutes": ["67'", "73'", "84'"]}
+        ],
+        "assists": [
+          {"team": "Bayern München", "player": "Jonathan Tah", "minute": "5'"},
+          {"team": "Bayern München", "player": "Kingsley Coman", "minute": "17'"},
+          {"team": "Bayern München", "player": "Michael Olise", "minutes": ["20'", "44'"]},
+          {"team": "Bayern München", "player": "Sacha Boey", "minute": "45+2'"},
+          {"team": "Bayern München", "player": "Thomas Müller", "minute": "66'"},
+          {"team": "Bayern München", "player": "Serge Gnabry", "minute": "88'"}
+        ]
+      },
+      {
+        "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 3,
+        "team1": {"name": "Paris Saint-Germain", "score": 4, "logo": "logo/PSG.png"},
+        "team2": {"name": "Atlético Madrid", "score": 0, "logo": "logo/ATM.png"},
+        "score": "4-0", "location": "Stadion Rose Bowl (Los Angeles)", "highlightVideo": "gol/PSG-ATM.mp4", 
+        "goals": [
+          {"team": "Paris Saint-Germain", "player": "Fabian Ruiz", "minute": "19'"},
+          {"team": "Paris Saint-Germain", "player": "Vitinha", "minute": "45+1'"},
+          {"team": "Paris Saint-Germain", "player": "Senny Mayulu", "minute": "87'"},
+          {"team": "Paris Saint-Germain", "player": "Lee Kang-In", "minute": "90+7'"}
+        ],
+        "assists": [
+          {"team": "Paris Saint-Germain", "player": "Khvicha Kvaratskhelia", "minutes": ["19'", "45+1'"]},
+          {"team": "Paris Saint-Germain", "player": "Ibrahim Mbaye", "minute": "87'"}
+        ]
+      },
+      {
+        "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 4,
+        "team1": {"name": "Palmeiras", "score": 0, "logo": "logo/Palmeiras.png"},
+        "team2": {"name": "FC Porto", "score": 0, "logo": "logo/Porto.png"},
+        "score": "0-0", "location": "Stadion MetLife (New York)",
+        "assists": []
+      },
+      {
+        "date": "2025-06-16", "round": "Penyisihan Grup", "matchNumber": 5,
+        "team1": {"name": "Botafogo", "score": 2, "logo": "logo/Botafogo.png"},
+        "team2": {"name": "Seattle Sounders", "score": 1, "logo": "logo/Seattle-Sounders.png"},
+        "score": "2-1", "location": "Lapangan Lumen (Seattle)", "highlightVideo": "gol/BOT-SEA.mp4", 
+        "goals": [
+          {"team": "Botafogo", "player": "Jair Cunha", "minute": "28'"},
+          {"team": "Botafogo", "player": "Igor Jesus", "minute": "44'"},
+          {"team": "Seattle Sounders", "player": "Alex Roldan", "minute": "75'"}
+        ],
+        "assists": [
+          {"team": "Botafogo", "player": "Alex Telles", "minute": "28'"}, 
+          {"team": "Botafogo", "player": "Vitinho", "minute": "44'"}, 
+          {"team": "Seattle Sounders", "player": "Paul Rothrock", "minute": "75'"}
+        ]
+      }, 
+      {
+        "date": "2025-06-17", "round": "Penyisihan Grup", "matchNumber": 6,
+        "team1": {"name": "Chelsea", "score": 2, "logo": "logo/Chelsea.png"},
+        "team2": {"name": "Los Angeles FC", "score": 0, "logo": "logo/LAFC.png"},
+        "score": "2-0", "location": "Stadion Mercedes-Benz (Atlanta)", "highlightVideo": "gol/CHE-LAF.mp4", 
+        "goals": [
+          {"team": "Chelsea", "player": "Pedro Neto", "minute": "34'"},
+          {"team": "Chelsea", "player": "Enzo Fernandez", "minute": "79'"}
+        ],
+        "assists": [
+          {"team": "Chelsea", "player": "Nicolas Jackson", "minute": "34'"},
+          {"team": "Chelsea", "player": "Liam Delap", "minute": "79'"}
+        ]
+      },
+      {
+        "date": "2025-06-17", "round": "Penyisihan Grup", "matchNumber": 7,
+        "team1": {"name": "Boca Juniors", "score": 2, "logo": "logo/Boca-Juniors.png"},
+        "team2": {"name": "Benfica", "score": 2, "logo": "logo/Benfica.png"},
+        "score": "2-2", "location": "Stadion Hard Rock (Miami)", "highlightVideo": "gol/BOC-SLB.mp4", 
+        "goals": [
+          {"team": "Boca Juniors", "player": "Nicolás Otamendi", "minute": "21'", "isOwnGoal": true},
+          {"team": "Boca Juniors", "player": "Rodrigo Battaglia", "minute": "27'"},
+          {"team": "Benfica", "player": "Ángel Di María", "minute": "45+3'"},
+          {"team": "Benfica", "player": "Nicolás Otamendi", "minute": "84'"}
+        ],
+        "assists": [
+          {"team": "Boca Juniors", "player": "Ayrton Costa", "minute": "27'"},
+          {"team": "Benfica", "player": "Orkun Kökçü", "minute": "84'"}
+        ]
+      }
+    ],
+    "clubs": [
+      {"name": "Al-Ahly", "logo": "logo/Al-Ahly.png"},
+      {"name": "Inter Miami", "logo": "logo/Inter-Miami.png"},
+      {"name": "Bayern München", "logo": "logo/Bayern.png"},
+      {"name": "Auckland City", "logo": "logo/Auckland.png"},
+      {"name": "Paris Saint-Germain", "logo": "logo/PSG.png"},
+      {"name": "Atlético Madrid", "logo": "logo/ATM.png"},
+      {"name": "Palmeiras", "logo": "logo/Palmeiras.png"},
+      {"name": "FC Porto", "logo": "logo/Porto.png"},
+      {"name": "Botafogo", "logo": "logo/Botafogo.png"},
+      {"name": "Seattle Sounders", "logo": "logo/Seattle-Sounders.png"}, 
+      {"name": "Chelsea", "logo": "logo/Chelsea.png"},
+      {"name": "Boca Juniors", "logo": "logo/Boca-Juniors.png"},
+      {"name": "Benfica", "logo": "logo/Benfica.png"}
+    ]
+  }
