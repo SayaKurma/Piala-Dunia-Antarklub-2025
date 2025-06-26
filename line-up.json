@@ -377,5 +377,80 @@
             ]
         },
         "referee": {"name": "Glenn Nyberg", "nationality": "Swedia"}
+    }, 
+    {
+        "matchNumber": 6,
+        "team1": {
+            "name": "Chelsea",
+            "code": "CHE",
+            "logo": "logo/Chelsea.png",
+            "coach": "Enzo Maresca",
+            "style": {"background": "linear-gradient(145deg, #0000ff, #0000cc)", "color": "#ffffff", "borderColor": "#ffffff"},
+            "players": [
+                {"number": "1", "name": "Sánchez", "position": {"top": 10, "left": 50}, "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #90EE90, #32CD32)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "24", "name": "James", "position": {"top": 100, "left": 18}, "isGoalkeeper": false},
+                {"number": "4", "name": "Tosin", "position": {"top": 80, "left": 40}, "isGoalkeeper": false},
+                {"number": "7", "name": "Neto", "position": {"top": 240, "left": 30}, "isGoalkeeper": false},
+                {"number": "6", "name": "Colwill", "position": {"top": 80, "left": 60}, "isGoalkeeper": false},
+                {"number": "3", "name": "Cucurella", "position": {"top": 100, "left": 82}, "isGoalkeeper": false},
+                {"number": "25", "name": "Caicedo", "position": {"top": 160, "left": 30}, "isGoalkeeper": false},
+                {"number": "11", "name": "Madueke", "position": {"top": 240, "left": 70}, "isGoalkeeper": false},
+                {"number": "45", "name": "Lavia", "position": {"top": 160, "left": 70}, "isGoalkeeper": false},
+                {"number": "10", "name": "Palmer", "position": {"top": 187, "left": 50}, "isGoalkeeper": false},
+                {"number": "15", "name": "Jackson", "position": {"top": 250, "left": 50}, "isGoalkeeper": false}
+            ],
+            "substitutes": [
+                {"number": "12", "name": "Filip Jørgensen", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #90EE90, #32CD32)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "5", "name": "Benoît Badiashile", "isGoalkeeper": false},
+                {"number": "8", "name": "Enzo Fernández", "isGoalkeeper": false},
+                {"number": "9", "name": "Liam Delap", "isGoalkeeper": false},
+                {"number": "14", "name": "Dário Essugo", "isGoalkeeper": false},
+                {"number": "17", "name": "Andrey Santos", "isGoalkeeper": false},
+                {"number": "18", "name": "Christopher Nkunku", "isGoalkeeper": false},
+                {"number": "22", "name": "Kiernan Dewsbury-Hall", "isGoalkeeper": false},
+                {"number": "23", "name": "Trevoh Chalobah", "isGoalkeeper": false},
+                {"number": "27", "name": "Malo Gusto", "isGoalkeeper": false},
+                {"number": "30", "name": "Aarón Anselmino", "isGoalkeeper": false},
+                {"number": "32", "name": "Tyrique George", "isGoalkeeper": false},
+                {"number": "34", "name": "Josh Acheampong", "isGoalkeeper": false},
+                {"number": "38", "name": "Marc Guiu", "isGoalkeeper": false}
+            ]
+        },
+        "team2": {
+            "name": "Los Angeles FC",
+            "code": "LAF",
+            "logo": "logo/LAFC.png",
+            "coach": "Steve Cherundolo",
+            "style": {"background": "linear-gradient(145deg, #ffffff, #e0e0e0)", "color": "#000000", "borderColor": "#000000"},
+            "players": [
+                {"number": "1", "name": "Lloris", "position": {"bottom": -12, "left": 50}, "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #facc15, #e6b800)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "24", "name": "Hollingshead", "position": {"bottom": 80, "left": 18}, "isGoalkeeper": false},
+                {"number": "4", "name": "Segura", "position": {"bottom": 60, "left": 40}, "isGoalkeeper": false},
+                {"number": "33", "name": "Long", "position": {"bottom": 60, "left": 60}, "isGoalkeeper": false},
+                {"number": "14", "name": "Palencia", "position": {"bottom": 80, "left": 82}, "isGoalkeeper": false},
+                {"number": "11", "name": "Tillman", "position": {"bottom": 140, "left": 30}, "isGoalkeeper": false},
+                {"number": "6", "name": "Igor Jesus", "position": {"bottom": 125, "left": 50}, "isGoalkeeper": false},
+                {"number": "8", "name": "Delgado", "position": {"bottom": 140, "left": 70}, "isGoalkeeper": false},
+                {"number": "99", "name": "Bouanga", "position": {"bottom": 220, "left": 30}, "isGoalkeeper": false},
+                {"number": "17", "name": "Ebobisse", "position": {"bottom": 220, "left": 50}, "isGoalkeeper": false},
+                {"number": "27", "name": "Ordaz", "position": {"bottom": 220, "left": 70}, "isGoalkeeper": false}
+            ],
+            "substitutes": [
+                {"number": "12", "name": "Thomas Hasal", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #facc15, #e6b800)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "18", "name": "David Ochoa", "isGoalkeeper": true, "style": {"background": "linear-gradient(135deg, #facc15, #e6b800)", "color": "#000000", "borderColor": "#000000"}},
+                {"number": "5", "name": "Marlon", "isGoalkeeper": false},
+                {"number": "9", "name": "Olivier Giroud", "isGoalkeeper": false},
+                {"number": "20", "name": "Yaw Yeboah", "isGoalkeeper": false},
+                {"number": "21", "name": "Ryan Raposo", "isGoalkeeper": false},
+                {"number": "23", "name": "Frankie Amaya", "isGoalkeeper": false},
+                {"number": "25", "name": "Maxime Chanot", "isGoalkeeper": false},
+                {"number": "30", "name": "David Martínez", "isGoalkeeper": false},
+                {"number": "43", "name": "Adam Saldaña", "isGoalkeeper": false},
+                {"number": "77", "name": "Adrian Wibowo", "isGoalkeeper": false},
+                {"number": "80", "name": "Odin Holm", "isGoalkeeper": false},
+                {"number": "91", "name": "Nkosi Tafari", "isGoalkeeper": false}
+            ]
+        },
+        "referee": {"name": "Jesús Valenzuela Sáez", "nationality": "Venezuela"}
     }
 ]
