@@ -71,5 +71,19 @@
     },
     "stadium": "Lapangan Lumen, Seattle",
     "attendance": "30.151 Penonton"
+  }, 
+  {
+    "matchNumber": 6, "date": "2025-06-17", "time": "03:00", "group": "Grup D", "matchday": 6,
+    "team1": {"name": "Chelsea", "code": "CHE", "logo": "logo/Chelsea.png"},
+    "team2": {"name": "Los Angeles FC", "code": "LAF", "logo": "logo/LAFC.png"},
+    "score": "2-0",
+    "scorers": {
+      "home": [
+        {"player": "Pedro Neto", "minute": "34'"},
+        {"player": "Enzo Fernández", "minute": "79'"}
+      ],
+      "away": []
+    },
+    "stadium": "Stadion Mercedes-Benz, Atlanta", "attendance": "22.137 Penonton"
   }
 ]
