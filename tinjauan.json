@@ -202,5 +202,40 @@
             {"type": "missed-goal", "team": "Seattle Sounders", "player": "Pedro de la Vega", "minute": "90+5'", "reason": "Sontekan diblok"},
             {"type": "fulltime"}
         ]
+    }, 
+    {
+        "matchNumber": 6,
+        "team1": {"name": "Chelsea", "code": "CHE", "logo": "logo/Chelsea.png"},
+        "team2": {"name": "Los Angeles FC", "code": "LAF", "logo": "logo/LAFC.png"},
+        "score": "2-0",
+        "events": [
+            {"type": "kickoff"},
+            {"type": "missed-goal", "team": "Chelsea", "player": "Noni Madueke", "minute": "17'", "reason": "sontekan diblok"},
+            {"type": "assist", "team": "Chelsea", "player": "Nicolas Jackson", "minute": "34'"},
+            {"type": "goal", "team": "Chelsea", "player": "Pedro Neto", "minute": "34'"},
+            {"type": "yellow", "team": "Chelsea", "player": "Reece James", "minute": "36'"},
+            {"type": "substitution", "team": "Los Angeles FC", "out": "Nathan Ordaz", "in": "David Martínez", "minute": "38'"},
+            {"type": "extra-time", "time": "2"},
+            {"type": "yellow", "team": "Chelsea", "player": "Tosin Adarabioyo", "minute": "45'"},
+            {"type": "halftime"},
+            {"type": "substitution", "team": "Chelsea", "out": "Roméo Lavia", "in": "Enzo Fernández", "minute": "46'"},
+            {"type": "substitution", "team": "Chelsea", "out": "Reece James", "in": "Malo Gusto", "minute": "46'"},
+            {"type": "substitution", "team": "Los Angeles FC", "out": "Jeremy Ebobisse", "in": "Olivier Giroud", "minute": "46'"},
+            {"type": "missed-goal", "team": "Los Angeles FC", "player": "Denis Bouanga", "minute": "57'", "reason": "sontekan diblok"},
+            {"type": "yellow", "team": "Los Angeles FC", "player": "David Martínez", "minute": "58'"},
+            {"type": "substitution", "team": "Chelsea", "out": "Nicolas Jackson", "in": "Liam Delap", "minute": "64'"},
+            {"type": "substitution", "team": "Chelsea", "out": "Noni Madueke", "in": "Tyrique George", "minute": "64'"},
+            {"type": "yellow", "team": "Chelsea", "player": "Marc Cucurella", "minute": "75'"},
+            {"type": "assist", "team": "Chelsea", "player": "Liam Delap", "minute": "79'"},
+            {"type": "goal", "team": "Chelsea", "player": "Enzo Fernández", "minute": "79'"},
+            {"type": "substitution", "team": "Los Angeles FC", "out": "Igor Jesus", "in": "Frankie Amaya", "minute": "81'"},
+            {"type": "substitution", "team": "Chelsea", "out": "Moisés Caicedo", "in": "Dário Essugo", "minute": "84'"},
+            {"type": "substitution", "team": "Chelsea", "out": "Cole Palmer", "in": "Christopher Nkunku", "minute": "84'"},
+            {"type": "substitution", "team": "Los Angeles FC", "out": "Mark Delgado", "in": "Yaw Yeboah", "minute": "87'"},
+            {"type": "substitution", "team": "Los Angeles FC", "out": "Timothy Tillman", "in": "Marlon", "minute": "87'"},
+            {"type": "extra-time", "time": "3"},
+            {"type": "yellow", "team": "Los Angeles FC", "player": "Sergi Palencia", "minute": "90+2'"},
+            {"type": "fulltime"}
+        ]
     }
 ]
