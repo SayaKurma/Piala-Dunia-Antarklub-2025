@@ -74,7 +74,7 @@
         "score": "2-0", "location": "Stadion Mercedes-Benz (Atlanta)", "highlightVideo": "gol/CHE-LAF.mp4", 
         "goals": [
           {"team": "Chelsea", "player": "Pedro Neto", "minute": "34'"},
-          {"team": "Chelsea", "player": "Enzo Fernandez", "minute": "79'"}
+          {"team": "Chelsea", "player": "Enzo Fernández", "minute": "79'"}
         ],
         "assists": [
           {"team": "Chelsea", "player": "Nicolas Jackson", "minute": "34'"},
