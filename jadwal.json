@@ -84,14 +84,14 @@
         "date": "2025-06-18", "day": "Rabu", "phase": "Penyisihan Grup",
         "teams": [
           {"code": "UHD", "name": "Ulsan HD", "logo": "logo/Ulsan.png"},
-          {"code": "SUN", "name": "Mamelodi Sundowns", "logo": "logo/Mamelodi.png"}
+          {"code": "MSU", "name": "Mamelodi Sundowns", "logo": "logo/Mamelodi.png"}
         ],
         "time": "07:05", "group": "Grup F", "stadium": "Stadion Inter&Co", "location": "Orlando"
       },
       {
         "date": "2025-06-18", "day": "Rabu", "phase": "Penyisihan Grup",
         "teams": [
-          {"code": "MTY", "name": "Monterrey", "logo": "logo/Monterrey.png"},
+          {"code": "CFM", "name": "Monterrey", "logo": "logo/Monterrey.png"},
           {"code": "INT", "name": "Inter Milan", "logo": "logo/Inter-Milan.png"}
         ],
         "time": "09:00", "group": "Grup E", "stadium": "Stadion Rose Bowl", "location": "Los Angeles"
