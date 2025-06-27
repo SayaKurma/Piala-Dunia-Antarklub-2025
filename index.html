@@ -570,7 +570,7 @@
                 return;
             }
 
-            const sortedMatches = matches.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 4);
+            const sortedMatches = matches.sort((a, b) => b.matchNumber - a.matchNumber).slice(0, 4);
 
             sortedMatches.forEach(match => {
                 const matchCard = document.createElement('div');
